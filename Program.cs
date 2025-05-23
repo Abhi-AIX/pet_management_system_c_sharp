@@ -62,7 +62,6 @@ internal class Program
                         Console.WriteLine("Enter the Animal Specie:");
                         string speciesDogOrCat = Console.ReadLine();
 
-
                         Console.WriteLine("Enter the Animal age:");
                         int age = Convert.ToInt32(Console.ReadLine());
 
@@ -247,7 +246,9 @@ internal class Program
 
                     case 6:
 
-                        Console.WriteLine("6. Validate and Fix Missing Age");
+                        Console.WriteLine("All missing/incomplete ages, physical descriptions and Personality are now valid.");
+                        Console.WriteLine("Press Enter to continue...");
+                        Console.ReadLine();
 
                         for (int i = 0; i < ourAnimals.Length; i++)
                         {
@@ -273,7 +274,46 @@ internal class Program
                                     petData[2] = validAge.ToString();
                                     ourAnimals[i] = string.Join(",", petData);
 
-                                    Console.WriteLine($"✅ Age updated for pet {petData[0]}.\n");
+                                    Console.WriteLine($"Age updated for pet {petData[0]}.\n");
+                                }
+
+                                //validate physical description
+
+                                if (string.IsNullOrWhiteSpace(petData[3]) || petData[3].Trim() == "?")
+                                {
+                                    Console.WriteLine($"\nAnimal with ID {petData[0]} has missing/invalid physical dexcription.");
+                                    Console.Write("Enter a valid physical description: ");
+
+                                    string inputNewPhysiscaldesc = Console.ReadLine();
+
+                                    while (string.IsNullOrWhiteSpace(inputNewPhysiscaldesc))
+                                    {
+                                        Console.Write("Invalid physical description. Please enter a valid description: ");
+                                        inputNewPhysiscaldesc = Console.ReadLine();
+                                    }
+
+                                    petData[3] = inputNewPhysiscaldesc;
+                                    ourAnimals[i] = string.Join(",", petData);
+                                    Console.WriteLine($"Physical description updated for pet {petData[0]}.\n");
+                                    
+                                }
+
+                                if(string.IsNullOrWhiteSpace(petData[4]) || petData[4].Trim() == "?")
+                                {
+                                    Console.WriteLine($"\nAnimal with ID {petData[0]} has missing/invalid personality.");
+                                    Console.Write("Enter a valid personality: ");
+
+                                    string inputNewPersonality = Console.ReadLine();
+
+                                    while (string.IsNullOrWhiteSpace(inputNewPersonality))
+                                    {
+                                        Console.Write("Invalid personality. Please enter a valid personality: ");
+                                        inputNewPersonality = Console.ReadLine();
+                                    }
+
+                                    petData[4] = inputNewPersonality;
+                                    ourAnimals[i] = string.Join(",", petData);
+                                    Console.WriteLine($"Personality updated for pet {petData[0]}.\n");
                                 }
                             }
                         }
