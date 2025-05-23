@@ -1,0 +1,14 @@
+/Users/abhinavbellamkonda/Desktop/dotnetworkspace/ContosoPets/bin/Debug/net9.0/ContosoPets
+/Users/abhinavbellamkonda/Desktop/dotnetworkspace/ContosoPets/bin/Debug/net9.0/ContosoPets.deps.json
+/Users/abhinavbellamkonda/Desktop/dotnetworkspace/ContosoPets/bin/Debug/net9.0/ContosoPets.runtimeconfig.json
+/Users/abhinavbellamkonda/Desktop/dotnetworkspace/ContosoPets/bin/Debug/net9.0/ContosoPets.dll
+/Users/abhinavbellamkonda/Desktop/dotnetworkspace/ContosoPets/bin/Debug/net9.0/ContosoPets.pdb
+/Users/abhinavbellamkonda/Desktop/dotnetworkspace/ContosoPets/obj/Debug/net9.0/ContosoPets.GeneratedMSBuildEditorConfig.editorconfig
+/Users/abhinavbellamkonda/Desktop/dotnetworkspace/ContosoPets/obj/Debug/net9.0/ContosoPets.AssemblyInfoInputs.cache
+/Users/abhinavbellamkonda/Desktop/dotnetworkspace/ContosoPets/obj/Debug/net9.0/ContosoPets.AssemblyInfo.cs
+/Users/abhinavbellamkonda/Desktop/dotnetworkspace/ContosoPets/obj/Debug/net9.0/ContosoPets.csproj.CoreCompileInputs.cache
+/Users/abhinavbellamkonda/Desktop/dotnetworkspace/ContosoPets/obj/Debug/net9.0/ContosoPets.dll
+/Users/abhinavbellamkonda/Desktop/dotnetworkspace/ContosoPets/obj/Debug/net9.0/refint/ContosoPets.dll
+/Users/abhinavbellamkonda/Desktop/dotnetworkspace/ContosoPets/obj/Debug/net9.0/ContosoPets.pdb
+/Users/abhinavbellamkonda/Desktop/dotnetworkspace/ContosoPets/obj/Debug/net9.0/ContosoPets.genruntimeconfig.cache
+/Users/abhinavbellamkonda/Desktop/dotnetworkspace/ContosoPets/obj/Debug/net9.0/ref/ContosoPets.dll
